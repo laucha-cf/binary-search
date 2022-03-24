@@ -1,0 +1,15 @@
+for 1.000 elements
+Sequential Search       -> 1648132313.6084218 seconds 
+(Recursive)Binary Search-> 1648132313.6144233 seconds 
+Binary Search           -> 1648132313.6154237 seconds 
+
+for 10.000 elements
+Sequential Search       -> 1648132342.1321898 seconds 
+(Recursive)Binary Search-> 1648132342.701624 seconds 
+Binary Search           -> 1648132342.7181277 seconds 
+
+for 100.000 elements
+Sequential Search       -> 1648132467.2757964 seconds 
+(Recursive)Binary Search-> 1648132541.9219127 seconds 
+Binary Search           -> 1648132542.1304603 seconds 
+
