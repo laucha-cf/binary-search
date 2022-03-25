@@ -29,11 +29,11 @@ def recursive_binary_search( p_list:list, p_elem, low=None, high=None ):
     if p_list[mid_index] == p_elem:
         return mid_index
     elif p_elem > p_list[mid_index]:
-        low = mid_index + 1
-        return recursive_binary_search(p_list, p_elem, low, high)
+        #low = mid_index + 1 
+        return recursive_binary_search(p_list, p_elem, mid_index + 1, high)
     else:
-        high = mid_index - 1
-        return recursive_binary_search(p_list, p_elem, low, high)
+        #high = mid_index - 1
+        return recursive_binary_search(p_list, p_elem, low, mid_index - 1)
 
 
 
