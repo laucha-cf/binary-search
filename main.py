@@ -30,18 +30,18 @@ if __name__ == '__main__':
         end = time.time()
         binary_time += end - start
 
-        #start = time.time()
-        #recursive_binary_search(sorted_list,target)
-        #end = time.time()
-        #rec_binary_time += end - start
+        start = time.time()
+        recursive_binary_search(sorted_list,target)
+        end = time.time()
+        rec_binary_time += end - start
         
 
 
     f.write(f'Sequential Search       -> {sequential_time} seconds \n')
 
-    f.write(f'(Recursive)Binary Search-> {binary_time} seconds \n')
+    f.write(f'(Recursive)Binary Search-> {rec_binary_time} seconds \n')
 
-    f.write(f'Binary Search           -> {rec_binary_time} seconds \n\n')
+    f.write(f'Binary Search           -> {binary_time} seconds \n\n')
 
     f.close()
 
