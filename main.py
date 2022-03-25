@@ -23,17 +23,17 @@ if __name__ == '__main__':
         start = time.time()
         sequential_search(sorted_list,target)
         end = time.time()
-        sequential_time += (start+end) / 2
+        sequential_time += end - start
 
         start = time.time()
         binary_search(sorted_list,target)
         end = time.time()
-        binary_time += (start+end) / 2
+        binary_time += end - start
 
-        start = time.time()
-        recursive_binary_search(sorted_list,target)
-        end = time.time()
-        rec_binary_time += (start+end) / 2
+        #start = time.time()
+        #recursive_binary_search(sorted_list,target)
+        #end = time.time()
+        #rec_binary_time += end - start
         
 
 
